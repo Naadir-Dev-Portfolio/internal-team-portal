@@ -1,168 +1,156 @@
-# CCMI Systems & Data Team Site
+---
+<div align="center">
 
-> Professional team dashboard integrating Power Apps, Power BI, documentation, and production system access.
+<img src="./repo-card.png" alt="Team Hub Website project card" width="100%" />
+<br /><br />
 
-[![HTML5](https://img.shields.io/badge/HTML5-Structure orange?style=flat square&logo=html5)](https://html.spec.whatwg.org/)
-[![CSS3](https://img.shields.io/badge/CSS3-Styling blue?style=flat square&logo=css3)](https://www.w3.org/Style/CSS/)
-[![JavaScript](https://img.shields.io/badge/JavaScript Interactivity yellow?style=flat square&logo=javascript)](https://developer.mozilla.org/en US/docs/Web/JavaScript)
+<p><strong>Professional front end portal for an internal data team, showcasing tools, projects and team info with a clean, responsive layout.</strong></p>
+
+<p>Built for an internal data team to centralise Power Apps, Power BI reports, documentation, code snippets, and system shortcuts in one reliable hub.</p>
+
+<p>
+  <a href="#overview">Overview</a> |
+  <a href="#what-problem-it-solves">What It Solves</a> |
+  <a href="#feature-highlights">Features</a> |
+  <a href="#screenshots">Screenshots</a> |
+  <a href="#quick-start">Quick Start</a> |
+  <a href="#tech-stack">Tech Stack</a>
+</p>
+
+<h3><strong>Made by Naadir | May 2026</strong></h3>
+
+</div>
 
 ---
 
 ## Overview
 
-The CCMI Systems & Data Team Site is a professional, custom built dashboard designed to consolidate team resources, tools, and workflows in a single integrated hub. Developed by Naadir D for the CCMI team, this application streamlines access to Power Apps, Power BI reports, documentation, code snippets, and production systems.
+Team Hub Website is a multi-page internal portal that brings the team’s core tools into one front end. It embeds Microsoft Power Apps and Power BI reports directly inside the site using iframes, so users can open apps, view reports, access documentation, and find key resources without jumping between separate bookmarks and systems.
 
-The site provides a centralized platform for team collaboration, reducing context switching and improving efficiency. It features embedded Microsoft Power Applications, responsive design, toggleable sidebar navigation, and quick links to critical production systems.
+The Power Apps page lets users view all team apps from one place, switch between them with a dropdown, and open them in full-screen mode when they need more working space. The Power BI reports page gives the team a central reporting view, while the documentation and code snippets pages keep operational knowledge and proprietary team code easy to find.
 
----
+The practical result is a faster daily workflow. The team gets one controlled hub for apps, reports, documentation, snippets, and shortcut links instead of relying on scattered links, manual searching, or shared messages.
 
-## Features
+## What Problem It Solves
 
-### Power Apps Integration
-- Embedded internal CCMI Power Apps for team workflows
-- One column and two column layout support
-- Launch apps directly or in new tabs
-- Developer versions available (restricted access)
-- Interactive app selector dropdown
+- Removes scattered bookmarks, links, and repeated searching across team systems
+- Replaces manual navigation between Power Apps, Power BI, documentation, and code references
+- Makes team tools, reports, snippets, and operational knowledge easier to find from one interface
+- Gives the team a cleaner default workspace than opening separate browser tabs for every system
 
-### Power BI Reports
-- Real-time embedded Power BI reports and dashboards
-- Expandable/collapsible report sections
-- Key dashboards: Report/Dataflow Finder, CCMI Team Summary
-- Interactive analytics and drill-down capabilities
-- Full-screen viewing options
+### At a glance
 
-### Documentation & Resources
-- Centralized access to CCMI documentation
-- Curated code snippet library for common solutions
-- Knowledge base for team reference
-- Easy copy to clipboard functionality
+| Track | Analyse | Compare |
+|---|---|---|
+| Team apps, reports, documentation, code snippets, and system links | Embedded Power BI reports and team resource usage flows | Power Apps and reports across different team areas |
+| Selected app, selected report, active page, and shortcut target | Report views, app access patterns, and navigation paths | Standard browser navigation vs central team portal |
+| Open, switch, full-screen, read, copy, and launch workflows | Embedded reports, documentation pages, and snippet libraries | Faster access vs scattered manual lookup |
 
-### Additional Features
-- CCMI Gen AI Assistant integration (requires API key)
-- Quick links to production systems (Depot, MySAP, Success Factors, ServiceNow)
-- Formatted date copy utility
-- Responsive sidebar navigation
-- Dark theme optimized UI
-- Font Awesome icon library
-- Professional branding with CCMI logo
+## Feature Highlights
 
----
+- **Power Apps hub**, switch between embedded apps with a dropdown and open them full screen when focused work is needed
+- **Power BI reports page**, view key team reports from one central reporting area without hunting for separate links
+- **Documentation page**, keep team guidance and process notes available inside the same portal as the tools
+- **Code snippets page**, store proprietary team snippets in one searchable reference area for faster reuse
+- **System shortcuts**, launch all frequently used team systems from one clean set of links
+- **Multi-page front end**, separate apps, reports, documentation, snippets, and shortcuts into clear working areas
+
+### Core capabilities
+
+| Area | What it gives you |
+|---|---|
+| **Embedded tools** | Direct access to Microsoft Power Apps and Power BI reports inside the website |
+| **Navigation** | Clear pages and shortcut links for the systems the team uses every day |
+| **Knowledge base** | Central documentation and proprietary snippets without separate files or message threads |
+| **Focused usage** | Dropdown switching and full-screen app views for faster hands-on work |
 
 ## Screenshots
 
-> Drop screenshots into `screens/` and reference them below.
+<details>
+<summary><strong>Open screenshot gallery</strong></summary>
 
-![CCMI Team Site](images/demoscreen.jpg)
+<br />
 
----
+<div align="center">
+  <img src="./portfolio/Screen1.png" alt="Power Apps hub showing embedded apps with dropdown switching" width="88%" />
+  <br /><br />
+  <img src="./portfolio/Screen2.png" alt="Power BI reports page with embedded team dashboards" width="88%" />
+  <br /><br />
+  <img src="./portfolio/Screen3.png" alt="Documentation and code snippets area for team reference material" width="88%" />
+</div>
 
-## Getting Started
+</details>
 
-### Prerequisites
-
-- Web browser (Chrome, Firefox, Safari, Edge)
-- Access to internal CCMI Power Apps and Power BI reports
-- (Optional) Google Gemini API key for AI Assistant feature
-
-### Installation
+## Quick Start
 
 ```bash
-git clone https://github.com/Naadir-Dev-Portfolio/Website-ccmi-team-site.git
-cd Website-ccmi-team-site
-# Serve with a local web server
+# Clone the repo
+git clone https://github.com/Naadir-Dev-Portfolio/Team-Hub-Website.git
+cd Team-Hub-Website
+
+# Install dependencies
+echo "No dependencies required"
+
+# Run
 python -m http.server 8000
 ```
 
-Navigate to `http://localhost:8000` in your browser.
-
-### Configuration
-
-1. Update embedded Power Apps iframes with your Power Apps URLs
-2. Configure Power BI report URLs in the Power BI page sections
-3. Customize quick links to your production systems
-4. Update team logo and branding in the sidebar
-5. Add your API key for the Gen AI Assistant (optional)
-
-### Deployment
-
-Deploy to any static hosting service:
-- GitHub Pages
-- Netlify
-- Vercel
-- Azure Static Web Apps
-- Corporate web server
-
----
+Open `http://localhost:8000` in the browser. No API keys are required. Microsoft Power Apps and Power BI embeds require valid organisation access, permissions, and sign-in where required.
 
 ## Tech Stack
 
-- HTML5, Semantic markup and structure
-- CSS3, Modular stylesheets (global, menu, hero, content, carousel, Power Apps, Power BI)
-- Vanilla JavaScript (ES6), Dynamic interactions and iframe management
-- Font Awesome, Icon library
-- Microsoft Power Apps, Embedded applications
-- Microsoft Power BI, Embedded reports
-- Streamlit API, Gen AI Assistant integration
+<details>
+<summary><strong>Open tech stack</strong></summary>
 
----
+<br />
 
-## Navigation
+| Category | Tools |
+|---|---|
+| **Primary stack** | `JavaScript` | `HTML` | `CSS` | `VBScript` |
+| **UI / App layer** | Multi-page static web interface with embedded iframe views |
+| **Data / Storage** | Static pages, local project files, embedded Microsoft Power Apps links, embedded Power BI report links |
+| **Automation / Integration** | Microsoft Power Apps embeds, Power BI report embeds, internal system shortcut links, local front end scripts |
+| **Platform** | Web |
 
-**Sidebar Menu:**
-- Home, Main dashboard
-- Power Apps, CCMI applications
-- Power BI Reports, Analytics and dashboards
-- Documentation, Knowledge base
-- Code Snippets, Reusable solutions
-- Gen AI Assistant, AI powered support
-- Production Systems, Quick links to enterprise tools
+</details>
 
----
+## Architecture & Data
 
-## File Structure
+<details>
+<summary><strong>Open architecture and data details</strong></summary>
 
-```
-Website-ccmi-team-site/
-├── index.html
-├── page_power_apps.html
-├── page_power_bi.html
-├── page_documents.html
-├── page_snippets.html
-├── css/
-│   ├── global_styles.css
-│   ├── additional_menu_styles.css
-│   ├── additional_hero_styles.css
-│   ├── main_content_styles.css
-│   ├── additional_carousel.css
-│   └── page_power_apps.css
-├── images/
-│   ├── teamlogo3.png
-│   └── demoscreen.jpg
-└── icons/
-    ├── menu-icon-home.png
-    ├── menu-icon-papp.png
-    ├── menu-icon-pbi.png
-    ├── menu-icon-doc.png
-    ├── menu-icon-snippet.png
-    └── menu-icon-ai.png
+<br />
+
+### Application model
+
+The site works as a static front end around internal Microsoft and team resources. Users open the portal, choose a page, then either launch a shortcut, view an embedded Power App, open an embedded Power BI report, read documentation, or copy a stored code snippet. JavaScript handles page interactions such as dropdown switching, iframe source changes, and full-screen controls. HTML defines the page structure, CSS controls the responsive layout, and iframe embeds expose the external Microsoft tools inside the portal.
+
+### Project structure
+
+```text
+Team-Hub-Website/
++-- index.html
++-- assets/
++-- README.md
++-- repo-card.png
++-- portfolio/
+    +-- team-hub-website.json
+    +-- team-hub-website.webp
+    +-- Screen1.png
+    +-- Screen2.png
+    +-- Screen3.png
 ```
 
----
+### Data / system notes
 
-## Key Features
+- Embedded Power Apps and Power BI reports depend on valid iframe URLs and user permissions inside the Microsoft tenant
+- The portal is a front end hub and does not store report data, app data, or credentials locally
+- The project can run locally as a static site and can be deployed to any standard web hosting environment that supports HTML, CSS, and JavaScript
 
-- **Responsive Design**, Adapts to desktop, tablet, and mobile
-- **Modular CSS**, Component based stylesheets for maintainability
-- **Dynamic JavaScript**, Menu toggles, iframe management, state persistence
-- **Professional UI**, Clean, modern interface with consistent branding
-- **Integration Hub**, Centralized access to all team tools
-- **Quick Access**, Shortcut buttons to frequently used systems
-- **Performance**, Lightweight, fast loading interface
+</details>
 
----
+## Contact
 
-## Related Projects
+Questions, feedback, or collaboration: `naadir.dev.mail@gmail.com`
 
-- [Streamlit AIQuizbot](https://github.com/Naadir Dev Portfolio/Streamlit AIQuizbot)
-- [Streamlit ccmi genai](https://github.com/Naadir Dev Portfolio/Streamlit ccmi genai)
+<sub>JavaScript | HTML | CSS | VBScript</sub>
