@@ -1,7 +1,7 @@
 ---
 <div align="center">
 
-<img src="./repo-card.png" alt="Team Hub Website project card" width="100%" />
+<img src="./repo-card.png" alt="Internal Team Portal project card" width="100%" />
 <br /><br />
 
 <p><strong>Professional front end portal for an internal data team, showcasing tools, projects and team info with a clean, responsive layout.</strong></p>
@@ -25,7 +25,7 @@
 
 ## Overview
 
-Team Hub Website is a multi-page internal portal that brings the team’s core tools into one front end. It embeds Microsoft Power Apps and Power BI reports directly inside the site using iframes, so users can open apps, view reports, access documentation, and find key resources without jumping between separate bookmarks and systems.
+Internal Team Portal is a multi-page internal portal that brings the team’s core tools into one front end. It embeds Microsoft Power Apps and Power BI reports directly inside the site using iframes, so users can open apps, view reports, access documentation, and find key resources without jumping between separate bookmarks and systems.
 
 The Power Apps page lets users view all team apps from one place, switch between them with a dropdown, and open them in full-screen mode when they need more working space. The Power BI reports page gives the team a central reporting view, while the documentation and code snippets pages keep operational knowledge and proprietary team code easy to find.
 
@@ -85,8 +85,8 @@ The practical result is a faster daily workflow. The team gets one controlled hu
 
 ```bash
 # Clone the repo
-git clone https://github.com/Naadir-Dev-Portfolio/Team-Hub-Website.git
-cd Team-Hub-Website
+git clone https://github.com/Naadir-Dev-Portfolio/internal-team-portal.git
+cd internal-team-portal
 
 # Install dependencies
 echo "No dependencies required"
@@ -128,14 +128,16 @@ The site works as a static front end around internal Microsoft and team resource
 ### Project structure
 
 ```text
-Team-Hub-Website/
+internal-team-portal/
 +-- index.html
 +-- assets/
 +-- README.md
 +-- repo-card.png
 +-- portfolio/
-    +-- team-hub-website.json
-    +-- team-hub-website.webp
+    +-- internal-team-portal.json
+    +-- team-hub-website.png
+    +-- team-hub-website-featured.png
+    +-- team-hub-website-full.png
     +-- Screen1.png
     +-- Screen2.png
     +-- Screen3.png
